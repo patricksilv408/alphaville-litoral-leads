@@ -1,8 +1,8 @@
 import { Phone, MessageCircle, Globe, MapPin, FileText, Shield } from "lucide-react";
 
 const Footer = () => {
-  const whatsappNumber = "5571999999999";
-  const whatsappMessage = "Olá! Gostaria de mais informações sobre o Alphaville Litoral Norte 4";
+  const whatsappNumber = "5571992117523";
+  const whatsappMessage = "Olá, quero saber mais sobre o Alphaville Litoral Norte 4";
   
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;

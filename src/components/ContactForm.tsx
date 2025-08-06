@@ -14,7 +14,7 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const whatsappNumber = "5571999999999";
+  const whatsappNumber = "5571992117523";
   
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -242,7 +242,7 @@ Gostaria de receber mais informações.`;
                   </div>
                   <div className="flex items-center">
                     <MessageCircle className="h-5 w-5 mr-3 text-accent" />
-                    <span>WhatsApp: (71) 9 9999-9999</span>
+                    <span>WhatsApp: (71) 9 9211-7523</span>
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 mr-3 text-accent" />

@@ -21,8 +21,8 @@ const Documentation = () => {
     "Certidão de regularidade fiscal"
   ];
 
-  const whatsappNumber = "5571999999999";
-  const whatsappMessage = "Gostaria de tirar dúvidas sobre a documentação necessária para compra no Alphaville Litoral Norte 4";
+  const whatsappNumber = "5571992117523";
+  const whatsappMessage = "Olá, quero saber mais sobre o Alphaville Litoral Norte 4";
   
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;

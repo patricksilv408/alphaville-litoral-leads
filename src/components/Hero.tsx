@@ -3,8 +3,8 @@ import { MessageCircle, MapPin, TreePine } from "lucide-react";
 import heroImage from "@/assets/alphaville-hero.jpg";
 
 const Hero = () => {
-  const whatsappNumber = "5571999999999"; // Substitua pelo número real
-  const whatsappMessage = "Olá! Tenho interesse no Alphaville Litoral Norte 4. Gostaria de mais informações.";
+  const whatsappNumber = "5571992117523";
+  const whatsappMessage = "Olá, quero saber mais sobre o Alphaville Litoral Norte 4";
   
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
