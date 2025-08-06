@@ -44,6 +44,18 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				sand: {
+					DEFAULT: 'hsl(var(--sand))',
+					foreground: 'hsl(var(--sand-foreground))'
+				},
+				nature: {
+					DEFAULT: 'hsl(var(--nature))',
+					foreground: 'hsl(var(--nature-foreground))'
+				},
+				premium: {
+					DEFAULT: 'hsl(var(--premium))',
+					foreground: 'hsl(var(--premium-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -62,6 +74,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-section': 'var(--gradient-section)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'premium': 'var(--shadow-premium)',
+				'card': 'var(--shadow-card)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
