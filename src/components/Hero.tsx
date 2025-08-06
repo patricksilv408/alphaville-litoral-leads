@@ -13,11 +13,21 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      {/* Background Images Slideshow */}
+      <div className="absolute inset-0">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-fade-in"
+          style={{ backgroundImage: `url(/lovable-uploads/e4b27dd0-fef9-4d77-9619-4cee4f6ed457.png)` }}
+        />
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 animate-pulse"
+          style={{ 
+            backgroundImage: `url(/lovable-uploads/5d899d07-420b-47f9-9f76-da942587384f.png)`,
+            animationDelay: '4s',
+            animationDuration: '8s'
+          }}
+        />
+      </div>
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-premium/80 via-primary/60 to-accent/40" />
